@@ -4,17 +4,16 @@
 wordpress_sites:
   newdealseals.com:
     site_hosts:
-    - canonical: newdealseals.com
-      redirects:
-      - www.newdealseals.com
+      - canonical: i-seals.nl
+        redirects:
+          - www.i-seals.nl
     local_path: ../site
-    branch: master
-    repo: git@github.com:example/example.com.git
-    repo_subtree_path: site
+    repo: git@github.com:sebastiaandekker/newdealseals-bedrock.git
+    branch: development
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
-      enabled: false
+      enabled: true
