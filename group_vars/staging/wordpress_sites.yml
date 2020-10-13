@@ -9,7 +9,7 @@ wordpress_sites:
           - www.i-seals.nl
     local_path: ../site
     repo: git@github.com:sebastiaandekker/newdealseals-bedrock.git
-    branch: development
+    branch: master
     multisite:
       enabled: false
     ssl:
